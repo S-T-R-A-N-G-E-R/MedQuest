@@ -1,20 +1,13 @@
-#Core LangChain libraries
 langchain
-langchain-core
-langchain-community
-langchain-huggingface
-
-#For integrating with OpenAI models (we'll use this later)
-openai
-
-#Document Loaders
 pypdf
 python-docx
 unstructured
-jq
-
-# Vector Store & Embeddings
+chromadb
 faiss-cpu
 sentence-transformers
 tiktoken
+langchain-community
+langchain-huggingface
 InstructorEmbedding
+streamlit
+langchain-ollama
