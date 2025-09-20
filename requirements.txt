@@ -1,11 +1,20 @@
+#Core LangChain libraries
 langchain
+langchain-core
+langchain-community
+langchain-huggingface
+
+#For integrating with OpenAI models (we'll use this later)
 openai
+
+#Document Loaders
 pypdf
 python-docx
 unstructured
-# Use the 'cpu' version for FAISS on Mac for easier installation
+jq
+
+# Vector Store & Embeddings
 faiss-cpu
 sentence-transformers
 tiktoken
-# For JSON loader
-jq
+InstructorEmbedding
