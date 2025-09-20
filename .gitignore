@@ -1,0 +1,51 @@
+# --- Virtual Environments ---
+# Conda environments
+.conda/
+conda-meta/
+# Standard Python virtual environments
+venv/
+*.venv/
+env/
+.env
+
+# --- Python Artifacts ---
+# Compiled Python files
+*.pyc
+*.pyo
+*.pyd
+# Caches
+__pycache__/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# --- OS-specific files ---
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# --- IDE & Editor Config ---
+# VS Code
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+# PyCharm
+.idea/
+
+# --- Build & Distribution ---
+build/
+dist/
+*.egg-info/
+*.egg
+
+# --- Logs & Databases ---
+*.log
+*.db
+*.sqlite3

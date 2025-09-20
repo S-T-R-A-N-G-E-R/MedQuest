@@ -1,0 +1,11 @@
+langchain
+openai
+pypdf
+python-docx
+unstructured
+# Use the 'cpu' version for FAISS on Mac for easier installation
+faiss-cpu
+sentence-transformers
+tiktoken
+# For JSON loader
+jq
